@@ -44,7 +44,7 @@ Back To Top
 
 
 
-/* 
+/*
 Social Link Widget
 ------------------------------------------------ */
 .social-link {
@@ -80,7 +80,7 @@ Social Link Widget
 }
 
 
-/* 
+/*
 Important Link Widget
 ------------------------------------------------ */
 .footer-list {
@@ -104,7 +104,7 @@ Important Link Widget
 }
 
 
-/* 
+/*
 Twitter Widget
 ------------------------------------------------ */
 .twitter-widget-wrapper a{
@@ -134,7 +134,7 @@ Twitter Widget
 
 
 
-/* 
+/*
 Subscription Widget
 ------------------------------------------------ */
 .primary-footer .widget .form-control {
@@ -160,10 +160,10 @@ Subscription Widget
    color: #c9f0ff;
 }
 .primary-footer.brand-bg .form-group input::-moz-placeholder {
-   color: #c9f0ff;  
+   color: #c9f0ff;
 }
-.primary-footer.brand-bg .form-group input:-ms-input-placeholder {  
-   color: #c9f0ff; 
+.primary-footer.brand-bg .form-group input:-ms-input-placeholder {
+   color: #c9f0ff;
 }
 
 .primary-footer .form-group {
@@ -185,7 +185,7 @@ Subscription Widget
 
 
 
-/* 
+/*
 Tag Cloud Widget
 ------------------------------------------------ */
 .widget-tags a {

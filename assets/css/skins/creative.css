@@ -442,3 +442,18 @@ footer newsletter
 .primary-footer.brand-bg .form-group input:-ms-input-placeholder {
    color: #c5a4ff;
 }
+
+
+.footer-nav {
+  display:inline-block !important;
+  margin-right: 20px;
+}
+
+
+
+@media screen and (max-width: 780px) {
+.footer-nav {
+    display: block !important;
+		margin-right: 0px !important;
+	}
+}

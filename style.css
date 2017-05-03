@@ -899,6 +899,7 @@ thead {
 @media (min-width: 768px){
     .sub-intro {
         width: 60%;
+        font-size: 28px !important;
     }
 }
 
