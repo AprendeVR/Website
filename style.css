@@ -1117,7 +1117,7 @@ thead {
     background-image: url("assets/img/banner/banner-9.jpg");
 }
 .banner-10 {
-    background-image: url("assets/img/banner/banner-10.jpg");
+    background-image: url("assets/img/3droom.jpg");
 }
 .banner-11 {
     background-image: url("assets/img/banner/banner-11.jpg");
@@ -1377,12 +1377,46 @@ button.mfp-arrow {
 }
 
 .progress .progress-bar.six-sec-ease-in-out {
-  -webkit-transition: width 2s ease-in-out;
-  -moz-transition: width 2s ease-in-out;
-  -o-transition: width 2s ease-in-out;
-  transition:  width 2s ease-in-out;
+  -webkit-transition: width 3.6s ease-in-out;
+  -moz-transition: width 3.6s ease-in-out;
+  -o-transition: width 3.6s ease-in-out;
+  transition:  width 3.6s ease-in-out;
 }
 
+.progress .progress-bar.five-sec-ease-in-out {
+  -webkit-transition: width 3s ease-in-out;
+  -moz-transition: width 3s ease-in-out;
+  -o-transition: width 3s ease-in-out;
+  transition:  width 3s ease-in-out;
+}
+
+.progress .progress-bar.four-sec-ease-in-out {
+  -webkit-transition: width 2.4s ease-in-out;
+  -moz-transition: width 2.4s ease-in-out;
+  -o-transition: width 2.4s ease-in-out;
+  transition:  width 2.4s ease-in-out;
+}
+
+.progress .progress-bar.three-sec-ease-in-out {
+  -webkit-transition: width 1.8s ease-in-out;
+  -moz-transition: width 1.8s ease-in-out;
+  -o-transition: width 1.8s ease-in-out;
+  transition:  width 1.8s ease-in-out;
+}
+
+.progress .progress-bar.two-sec-ease-in-out {
+  -webkit-transition: width 1.2s ease-in-out;
+  -moz-transition: width 1.2s ease-in-out;
+  -o-transition: width 1.2s ease-in-out;
+  transition:  width 1.2s ease-in-out;
+}
+
+.progress .progress-bar.one-sec-ease-in-out {
+  -webkit-transition: width 0.6s ease-in-out;
+  -moz-transition: width 0.6s ease-in-out;
+  -o-transition: width 0.6s ease-in-out;
+  transition:  width 0.6s ease-in-out;
+}
 
 /*Progress Dot Style*/
 .progress-dot {

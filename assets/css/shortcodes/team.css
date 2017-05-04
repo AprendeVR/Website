@@ -11,16 +11,16 @@ Team Member
     padding: 0;
     border: 0;
 }
-.team-tab .nav-tabs>li>a, 
+.team-tab .nav-tabs>li>a,
 .team-tab .nav-tabs.nav-justified>li>a {
     margin-right: 15px;
 }
 
-.team-tab .nav-tabs>li.active>a, 
-.team-tab .nav-tabs>li.active>a:focus, 
-.team-tab .nav-tabs>li.active>a:hover, 
-.team-tab .nav-tabs.nav-justified>.active>a, 
-.team-tab .nav-tabs.nav-justified>.active>a:focus, 
+.team-tab .nav-tabs>li.active>a,
+.team-tab .nav-tabs>li.active>a:focus,
+.team-tab .nav-tabs>li.active>a:hover,
+.team-tab .nav-tabs.nav-justified>.active>a,
+.team-tab .nav-tabs.nav-justified>.active>a:focus,
 .team-tab .nav-tabs.nav-justified>.active>a:hover {
     border: 0;
     position: relative;
@@ -96,7 +96,7 @@ Team Member
         width: 100%;
     }
     .team-tab .team-img img {
-        display: none;
+        display: block;
     }
     .team-social-links {
         border-top: 0;
