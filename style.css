@@ -2316,3 +2316,19 @@ KEY FRAME
 #preloader .progress .indeterminate{
     background:#03a9f4;
 }
+
+.grow:hover{
+    transform: scale(1.5,1.5);
+    -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    -o-transform: scale(1.5,1.5);
+    height: auto;
+    transition: .5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+    -webkit-    transition: .5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+    -moz-transition: .5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+    -o-transition: .5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.card a {
+  margin-right: 0px !important;
+}
