@@ -845,6 +845,11 @@ Responsive Menu
 
 @media screen and (max-width: 768px) {
 
+    .tt-nav .logo-brand img {
+      height: 25px;
+      margin-top: 5px;
+    }
+
     .tt-nav {
         top:0;
     }

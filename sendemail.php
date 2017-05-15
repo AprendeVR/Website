@@ -6,12 +6,13 @@
     header( 'Content-type: application/json' );
 
 
-    $to = 'pmcruz8@gmail.com';
+    $to         = 'pmcruz8@gmail.com';
 
     $email_template = 'simple.html';
 
-    $subject    = 'From Website';
+    $subject    = strip_tags($_POST['subject']);
     $email       = strip_tags($_POST['email']);
+    $website       = strip_tags($_POST['website']);
     $phone      = strip_tags($_POST['phone']);
     $name       = strip_tags($_POST['name']);
     $message    = nl2br( htmlspecialchars($_POST['message'], ENT_QUOTES) );
@@ -52,6 +53,7 @@
         '{{email}}'=>$email,
         '{{message}}'=>$message,
         '{{name}}'=>$name,
+        '{{website}}'=>$website,
         '{{phone}}'=>$phone
         );
 
