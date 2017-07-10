@@ -15,7 +15,7 @@
 ------------------------------------
     1.0 - General
     2.0 - Typography
-    3.0 - Global Style
+    3.0 - Global Style©
     4.0 - Color Presets
     5.0 - Overlay css
     6.0 - Hero css
@@ -889,7 +889,7 @@ thead {
 
 /* ================= Hero Unit ==================== */
 .intro-title {
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 400;
 }
 .sub-intro {
@@ -2331,4 +2331,14 @@ KEY FRAME
 
 .card a {
   margin-right: 0px !important;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+@media screen and (max-width: 991px) {
+  .no-padding {
+    width: 100%;
+  }
 }
